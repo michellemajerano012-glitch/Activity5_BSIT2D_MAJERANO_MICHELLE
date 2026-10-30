@@ -1,0 +1,3 @@
+Analysis: Stacks and Queues
+
+A linked-list stack pushes new elements at the head because inserting at the head takes O(1) time, while inserting at the tail of a singly linked list may require O(n) time. Pushing and popping at the head also allows the stack to follow the Last In, First Out (LIFO) principle efficiently. An array queue must be circular so that empty spaces at the beginning of the array can be reused after elements are dequeued. The circular design allows the front and rear positions to wrap around to the beginning of the array instead of wasting available space. A size counter helps distinguish between a full queue and an empty queue.
